@@ -1,4 +1,4 @@
-public enum AutovalidateMode: String {    
+public enum AutovalidateMode: String {
     case disabled
     case always
     case onUserInteraction

@@ -1,0 +1,12 @@
+--swiftversion 5.9
+--allman false
+--indent 4
+--linebreaks lf
+--self init-only
+--header strip
+--patternlet inline
+--stripunusedargs closure-only
+--voidtype void
+
+--disable extensionAccessControl
+--disable redundantExtensionACL
