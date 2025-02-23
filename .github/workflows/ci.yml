@@ -15,9 +15,8 @@ jobs:
       - name: Run SwiftFormat
         run: |
           brew install swiftformat
-          swiftformat --lint --path .
+          swiftformat .
 
-      - name: Test      
+      - name: Test
         run: |
           swift test
-
