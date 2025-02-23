@@ -23,7 +23,7 @@ public struct FormField<Content: View, Value: Equatable>: View {
                 .focused($isFocused)
                 .onChange(of: state.formState.previousActiveFieldId) { previousActiveFieldId in
                     if state.formState.autovalidateMode == .onUnfocus,
-                       previousActiveFieldId == state.id {
+                        previousActiveFieldId == state.id {
                         isFocused = false
                     }
                 }

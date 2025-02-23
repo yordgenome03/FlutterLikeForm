@@ -2,26 +2,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUIFlutterForm",
+    name: "SwiftUIFlutterLikeForm",
     platforms: [
         .iOS(.v16),
     ],
     products: [
         .library(
-            name: "SwiftUIFlutterForm",
-            targets: ["SwiftUIFlutterForm"]
+            name: "FlutterLikeForm",
+            targets: ["FlutterLikeForm"]
         ),
     ],
     targets: [
         .target(
-            name: "SwiftUIFlutterForm",
+            name: "FlutterLikeForm",
             dependencies: [],
-            path: "Sources/SwiftUIFlutterForm"
+            path: "Sources/FlutterLikeForm"
         ),
         .testTarget(
-            name: "SwiftUIFlutterFormTests",
-            dependencies: ["SwiftUIFlutterForm"],
-            path: "Tests/SwiftUIFlutterFormTests"
+            name: "FlutterLikeFormTests",
+            dependencies: ["FlutterLikeForm"],
+            path: "Tests/FlutterLikeFormTests"
         ),
     ]
 )
