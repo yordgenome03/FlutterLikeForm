@@ -6,7 +6,6 @@ public class FormState: ObservableObject {
     public var autovalidateMode: AutovalidateMode
     @Published public var previousActiveFieldId: String?
     @Published public var activeFieldId: String?
-    @Published public var isValidAll = false
     
     public init(fieldStates: [AnyFormFieldState] = [], autovalidateMode: AutovalidateMode = .onUnfocus) {
         self.fieldStates = fieldStates
@@ -28,15 +27,14 @@ public class FormState: ObservableObject {
         fieldStates.removeAll { $0.id == state.id }
     }
     
-    public func validate() {
+    public func validate() -> Bool {
         fieldStates.forEach { $0.validate() }
-        isValidAll = fieldStates.allSatisfy { $0.isValid }
+        return fieldStates.allSatisfy { $0.isValid }
     }
     
     public func reset() {
         fieldStates.forEach { $0.reset() }
         activeFieldId = nil
         previousActiveFieldId = nil
-        isValidAll = false
     }
 }
