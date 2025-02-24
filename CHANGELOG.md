@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.1] - 2025-02-25
+
+### Fixed
+
+- Resolved issue where the `errorText` computed property in `FormField` had mismatched underlying return types, causing compilation errors. `EmptyView` and `Text` are now wrapped in `AnyView` to ensure consistency in the return type.
+
 ## [1.0.0] - 2025-02-25
 
 ### Added

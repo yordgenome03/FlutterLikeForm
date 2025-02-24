@@ -52,13 +52,15 @@ public struct FormField<Content: View, Value: Equatable>: View {
         } else if !config.hideEmptyErrorSpace {
             message = " "
         } else {
-            return EmptyView()
+            return AnyView(EmptyView())
         }
 
-        return Text(message)
-            .foregroundColor(config.errorMessageColor)
-            .font(config.errorMessageFont)
-            .padding(config.errorMessagePadding)
-            .frame(maxWidth: .infinity, alignment: config.errorMessageAlignment)
+        return AnyView(
+            Text(message)
+                .foregroundColor(config.errorMessageColor)
+                .font(config.errorMessageFont)
+                .padding(config.errorMessagePadding)
+                .frame(maxWidth: .infinity, alignment: config.errorMessageAlignment)
+        )
     }
 }
