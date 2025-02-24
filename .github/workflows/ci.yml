@@ -11,7 +11,7 @@ jobs:
     runs-on: macOS-latest
     strategy:
       matrix:
-        destination: ["iOS Simulator,name=iPhone 15,OS=17.5"]
+        destination: ["platform=iOS Simulator,name=iPhone 15,OS=17.5"]
         xcode: ["15.4"]
     steps:
       - uses: actions/checkout@v4
@@ -25,4 +25,3 @@ jobs:
       - name: Build and Run Tests
         run: |
           xcodebuild -scheme SwiftUIFlutterLikeForm test -destination "${{ matrix.destination }}"
-
