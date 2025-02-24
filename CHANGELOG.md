@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [1.0.0] - 2025-02-25
+
+### Added
+
+- `FormFieldConfig`: A configuration struct for customizing form field appearances and behaviors (e.g., error message color, padding, font).
+- `FormField`: A customizable SwiftUI form field component, which supports validation, error handling, and state management.
+
+### Changed
+
+- Updated initialization of `FormFieldConfig` with default values to improve flexibility for customization.
+
 ## [0.1.0] - 2025-02-24
 
 ### Initial development
