@@ -5,18 +5,23 @@ on:
     branches: [master, develop]
   pull_request:
     branches: [master, develop, feature/*]
-jobs:
-  build:
-    runs-on: macOS-latest
 
+jobs:
+  run-tests:
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        destination: ["iOS Simulator,name=iPhone 15,OS=17.5"]
+        xcode: ["15.4"]
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run SwiftFormat
-        run: |
-          brew install swiftformat
-          swiftformat .
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app/Contents/Developer
 
-      - name: Test
+      - name: Install Dependencies
+        run: swift package resolve
+
+      - name: Build and Run Tests
         run: |
-          swift test
+          xcodebuild -scheme SwiftUIFlutterLikeForm test -destination "${{ matrix.destination }}"

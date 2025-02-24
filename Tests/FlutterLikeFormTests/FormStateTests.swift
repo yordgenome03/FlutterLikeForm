@@ -1,4 +1,4 @@
-@testable import SwiftUIFlutterForm
+@testable import FlutterLikeForm
 import XCTest
 
 final class FormStateTests: XCTestCase {

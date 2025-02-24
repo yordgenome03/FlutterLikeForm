@@ -6,7 +6,6 @@ let package = Package(
     platforms: [
         .iOS(.v16),
     ],
-    version: "0.1.0"
     products: [
         .library(
             name: "FlutterLikeForm",
@@ -16,7 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "FlutterLikeForm",
-            dependencies: [],
             path: "Sources/FlutterLikeForm"
         ),
         .testTarget(
