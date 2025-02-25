@@ -1,4 +1,4 @@
-# SwiftUIFormPackage
+# SwiftUIFlutterLikeForm
 
 A Swift package for creating forms in SwiftUI with automatic validation, similar to Flutter's Form widget. This package provides a reusable form structure with features like field validation, auto-validation modes, and form state management.
 
@@ -26,7 +26,7 @@ Here is an example of how to use the package to create a form with custom valida
 
 ```swift
 import SwiftUI
-import SwiftUIFormPackage
+import FlutterLikeForm
 
 struct MyFormView: View {
     @ObservedObject var formState: FormState
