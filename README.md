@@ -28,7 +28,7 @@ To add the SwiftUIFlutterLikeForm to your project, include it in your Package.sw
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yordgenome03/SwiftUIFlutterLikeForm.git", from: "1.0.1")
+    .package(url: "https://github.com/yordgenome03/FlutterLikeForm.git", from: "1.0.2")
 ]
 ```
 

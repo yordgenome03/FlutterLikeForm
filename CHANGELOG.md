@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.2] - 2025-09-12
+
+### Changed
+
+- Renamed package from **SwiftUIFlutterLikeForm** to **FlutterLikeForm**
+
 ## [1.0.1] - 2025-02-25
 
 ### Fixed
