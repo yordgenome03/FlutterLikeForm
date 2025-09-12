@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4feddc5d-a9c7-4d36-8974-f83c161c6ba9" alt="SwiftUIFlutterLikeFormLogo logo" width="300"/>
+  <img src="https://github.com/user-attachments/assets/1dc58447-b0c1-4c21-afee-dbb48d235376" alt="SwiftUIFlutterLikeFormLogo logo" width="300"/>
 </p>
 
 A Swift package for creating forms in SwiftUI with automatic validation, similar to Flutter's Form widget. This package provides a reusable form structure with features like field validation, auto-validation modes, and form state management.
