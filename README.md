@@ -1,15 +1,15 @@
 # FlutterLikeForm
 
-[![Swift Package Index](https://swiftpackageindex.com/yordgenome03/SwiftUIFlutterLikeForm/badge.svg)](https://swiftpackageindex.com/yordgenome03/FlutterLikeForm)
+[![Swift Package Index](https://swiftpackageindex.com/yordgenome03/FlutterLikeForm/badge.svg)](https://swiftpackageindex.com/yordgenome03/FlutterLikeForm)
 
-![CI](https://github.com/yordgenome03/SwiftUIFlutterLikeForm/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/yordgenome03/FlutterLikeForm/actions/workflows/ci.yml/badge.svg)
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
 ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20macOS-blue)
 ![SPM](https://img.shields.io/badge/SPM-compatible-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b7d62cf6-4eff-4fba-b2ab-208554d4a13d" alt="SwiftUIFlutterLikeFormLogo logo" width="300"/>
+  <img src="https://github.com/user-attachments/assets/b7d62cf6-4eff-4fba-b2ab-208554d4a13d" alt="FlutterLikeFormLogo logo" width="300"/>
 </p>
 
 A Swift package for creating forms in SwiftUI with automatic validation, similar to Flutter's Form widget. This package provides a reusable form structure with features like field validation, auto-validation modes, and form state management.
@@ -24,11 +24,11 @@ A Swift package for creating forms in SwiftUI with automatic validation, similar
 
 ## Installation
 
-To add the SwiftUIFlutterLikeForm to your project, include it in your Package.swift file:
+To add the FlutterLikeForm to your project, include it in your Package.swift file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yordgenome03/FlutterLikeForm.git", from: "1.0.2")
+    .package(url: "https://github.com/yordgenome03/FlutterLikeForm.git", from: "1.0.3")
 ]
 ```
 

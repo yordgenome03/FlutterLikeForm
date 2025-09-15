@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUIFlutterLikeForm",
+    name: "FlutterLikeForm",
     platforms: [
         .iOS(.v16),
     ],
