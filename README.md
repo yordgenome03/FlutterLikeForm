@@ -1,5 +1,4 @@
 # FlutterLikeForm
-<img width="1024" height="1024" alt="SwiftUIFlutterLikeFormLogo" src="https://github.com/user-attachments/assets/b7d62cf6-4eff-4fba-b2ab-208554d4a13d" />
 
 [![Swift Package Index](https://swiftpackageindex.com/yordgenome03/SwiftUIFlutterLikeForm/badge.svg)](https://swiftpackageindex.com/yordgenome03/FlutterLikeForm)
 
