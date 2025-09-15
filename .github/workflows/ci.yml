@@ -18,7 +18,7 @@ jobs:
       - name: Select Xcode Version
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '15.4' # または利用可能なバージョンに変更
+          xcode-version: '16.2'
 
       - name: Check Xcode Version
         run: xcodebuild -version
